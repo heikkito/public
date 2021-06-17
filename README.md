@@ -7,7 +7,7 @@ I only publish fully working code here that compiles but may require to install 
 
 **CONTENTS**
 
-**Azure Netshare Connect Persistently**: Connect to a Azure netshare persistently and use it like a local fileserver share. Basically a script + scheduled task XML that can be imported to a workstation
+**Azure Netshare Connect Persistently**: Connect to a Azure netshare persistently and use it like a local fileserver share. Basically a script + scheduled task XML that can be imported to a workstation that triggers 'on logon' once. 
 
 **Ping search for software and delete it**: Pings for machines that are online, searches them for software and deletes the software on machines that are online+have the software package. Menu Driven UI.
 
