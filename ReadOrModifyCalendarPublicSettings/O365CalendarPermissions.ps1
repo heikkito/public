@@ -36,7 +36,7 @@ do
             $cal = New-Object System.Management.Automation.Host.ChoiceDescription '&Calendar', 'Calendar (English OS)'
             $userinput = Read-Host -Prompt 'Input username in firstanme.lastname format without scandic characters'
             $user = Get-mailbox $userinput
-            $cal = $user.alias+”:\Calendar”
+            $cal = $user.alias+":\Calendar"
             Write-Output "Using $user as target for mailbox manipulation"
             Write-Host 'Start situation:'
             Get-MailboxFolderPermission -Identity $cal
@@ -52,7 +52,7 @@ do
             $cal = New-Object System.Management.Automation.Host.ChoiceDescription '&Kalenteri', 'Kalenteri (Finnish OS)'
             $userinput = Read-Host -Prompt 'Input username in firstanme.lastname format without scandic characters'
             $user = Get-mailbox $userinput
-            $cal = $user.alias+”:\Kalenteri”
+            $cal = $user.alias+":\Kalenteri"    # Warning: Encoding for "" sometimes changes. If the "" look italic change them to normal Shift+2 " found on keyboard
             Write-Output "Using $user as target for mailbox manipulation"
             Write-Host 'Start situation:'
             Get-MailboxFolderPermission -Identity $cal
@@ -68,7 +68,7 @@ do
             $cal = New-Object System.Management.Automation.Host.ChoiceDescription '&Calendar', 'Calendar (English OS)'
             $userinput = Read-Host -Prompt 'Input username in firstanme.lastname format without scandic characters'
             $user = Get-mailbox $userinput
-            $cal = $user.alias+”:\Calendar”
+            $cal = $user.alias+":\Calendar"          # Warning: Encoding for "" sometimes changes. If the "" look italic change them to normal Shift+2 " found on keyboard
             Write-Output "Using $user as target for mailbox state reading"
             Write-Host 'Current permission state:'
             Get-MailboxFolderPermission -Identity $cal
