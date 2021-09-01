@@ -1,5 +1,7 @@
-This script requires working ExchangeOnline powershell module. Please read separately on the net how to install and maintain this module. 
+This script requires working ExchangeOnline powershell module. This may be needed: Install-Module -Name ExchangeOnlineManagement 
 
-As for using the script run it with or without the .bat file that sets unrestricted grants for it. Menus guide you through what the options are next.  
+If it doesn't work please read separately on the net how to install and maintain this module. 
 
-This may be needed: Install-Module -Name ExchangeOnlineManagement
+As for using the script run it with or without the .bat file that sets unrestricted grants for it. Once running the menu will guide you through what options you have to manipulate accounts. 
+
+
