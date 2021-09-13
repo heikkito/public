@@ -9,9 +9,9 @@ I only publish fully working code here that compiles but may require to install 
 
 **Azure Netshare Connect Persistently**: Connect to a Azure netshare persistently and use it like a local fileserver share. Basically a script + scheduled task XML that can be imported to a workstation that triggers 'on logon' once. 
 
-**Ping search for software and delete it**: Pings for machines that are online, searches them for software and deletes the software on machines that are online+have the software package. Menu Driven UI.
+**Ping search for software and delete it**: Pings for machines that are online, searches them for software and deletes the software on machines that are online+have the software package. Simple UI that asks questions and acts acordingly. 
 
-**Push user to admin group**: Adds a local user to local admin group. Menu driven UI. 
+**Push user to admin group**: Adds a local user to local admin group. Simple UI that asks questions and acts acordingly. 
 
 **Read or Modify public calendar settings**: Tools to set public visibility. Support for finnish 'Kalenteri' settings as well. Menu driven UI. 
 
