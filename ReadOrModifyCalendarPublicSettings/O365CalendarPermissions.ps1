@@ -40,8 +40,8 @@ do
             Write-Output "Using $user as target for mailbox manipulation"
             Write-Host 'Start situation:'
             Get-MailboxFolderPermission -Identity $cal
-            Add-MailboxFolderPermission -Identity $cal -User clausion.finland.sec -AccessRights Reviewer
-            set-MailboxFolderPermission -Identity $cal -User clausion.finland.sec -AccessRights Reviewer
+            Add-MailboxFolderPermission -Identity $cal -User xxxx.finland.sec -AccessRights Reviewer
+            set-MailboxFolderPermission -Identity $cal -User xxxx.finland.sec -AccessRights Reviewer
             Write-Host 'End result after changes:'
             Get-MailboxFolderPermission -Identity $cal
             Read-Host "Press any key to return to menu"
@@ -56,8 +56,8 @@ do
             Write-Output "Using $user as target for mailbox manipulation"
             Write-Host 'Start situation:'
             Get-MailboxFolderPermission -Identity $cal
-            Add-MailboxFolderPermission -Identity $cal -User clausion.finland.sec -AccessRights Reviewer
-            set-MailboxFolderPermission -Identity $cal -User clausion.finland.sec -AccessRights Reviewer
+            Add-MailboxFolderPermission -Identity $cal -User xxxx.finland.sec -AccessRights Reviewer
+            set-MailboxFolderPermission -Identity $cal -User xxxx.finland.sec -AccessRights Reviewer
             Write-Host 'End result after changes:'
             Get-MailboxFolderPermission -Identity $cal
             Read-Host "Press any key to return to menu"
