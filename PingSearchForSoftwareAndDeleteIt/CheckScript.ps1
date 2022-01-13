@@ -37,7 +37,7 @@ Function Test-AppInstalled {
 
 #Get list of computers to uninstall software on
 Write-Output ("`n",'This script will search for computers, check if they are online, check for installed software and uninstall. There are pauses between steps that allows stopping the script.')
-$Desktops = Get-ADComputer -SearchBase 'OU=Workstations,OU=Clausion,DC=ad,DC=clausion,DC=com' -Filter * | select -ExpandProperty name
+$Desktops = Get-ADComputer -SearchBase 'OU=Workstations,OU=Domain,DC=ad,DC=domain,DC=com' -Filter * | select -ExpandProperty name
 Write-Output ("`n",'Getting list of computers that exist on AD...  ')
 Write-Output ('Objects found on AD:  ',"`n")
 Write-Output $Desktops
