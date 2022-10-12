@@ -15,3 +15,4 @@ I only publish fully working code here that compiles but may require to install 
 
 **Read or Modify public calendar settings**: Tools to set public visibility. Support for finnish 'Kalenteri' settings as well. Menu driven UI. 
 
+**Start Service log archiving with JSON config** Checks for service. Start it if not running. Log files + archiving of old files. JSON config file defines paths and log notes.  Basically a stub script to build upon so replace actual payload with whatever you want. The script takes care of log handling.
