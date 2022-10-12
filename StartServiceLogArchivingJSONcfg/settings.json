@@ -1,0 +1,7 @@
+{
+	"createdirtext": "Logfile exists. Moving old file to a new archive directory",
+	"filesdone": "Logfile creation/archiving done. Executing main task",
+	"service": "wmi*",
+	"logfile": "c:\\temp\\service_check.log",
+	"archiveprefix": "c:\\temp\\archive"
+}
