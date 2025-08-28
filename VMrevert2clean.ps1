@@ -1,4 +1,5 @@
- 
+# Requires AWS CLI configured + 'aws configure'ä done so you have a working connection to your EC2 machines and snapshots. Dont forget to grant proper rights in IAM. 
+#
 
 param( 
     [string]$InstanceId = "i-055xxxxxxx", 
